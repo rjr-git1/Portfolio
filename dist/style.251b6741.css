@@ -1,0 +1,208 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*GENERAL*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  padding-bottom: 2.5rem;
+}
+
+h4 {
+  padding-bottom: 0.2rem;
+}
+
+h5 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+/*HEADER*/
+nav {
+  background-color: #1b242f;
+  color: #fff;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro h2 {
+  padding-top: 8rem;
+  letter-spacing: 6px;
+}
+
+.red-span {
+  color: #E31B6D;
+}
+
+.work-button {
+  background: #1b242f;
+  color: #fff;
+  display: block;
+  margin-top: 0.5rem;
+  width: 140px;
+  height: 90px;
+  position: relative;
+  left: 45%;
+}
+
+.work-button span {
+  font-weight: 900;
+}
+
+button:hover {
+  border-color: #E31B6D;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 8rem;
+}
+
+.nav-menu li {
+  border-color: #1b242f;
+  margin-top: 2em;
+  padding: 1.3em;
+}
+
+.active {
+  color: #E31B6D;
+}
+
+.menu-links:hover {
+  background-color: #E31B6D;
+}
+
+/*MAIN SECTIONS*/
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-row {
+  padding: 2rem;
+}
+
+.progr-skills {
+  margin-bottom: 4rem;
+}
+
+.progr-skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.progr-skills li {
+  padding: 0.6rem;
+}
+
+.progr-skills-list li .fab {
+  margin-right: 2.2rem;
+  transform: scale(2, 3);
+}
+
+.language-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.card {
+  background-color: #f5f5f5;
+}
+
+.card-content {
+  margin-left: 1rem;
+}
+
+.role-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-content {
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  height: 15vh;
+  background-color: #1b242f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#footer-note {
+  margin: 2rem;
+}
+
+#footer-span {
+  margin-right: 0.5em;
+}
+
+#education.card {
+  padding-bottom: 3rem;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 560px) {
+  .work-button {
+    left: 40%;
+    margin-bottom: 2rem;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    position: relative;
+    left: 40%;
+  }
+
+  .nav-menu li {
+    margin-top: 0;
+  }
+
+  .language-skills {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+  }
+
+  .language-skills li {
+    padding: 1rem;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=/style.251b6741.css.map */
