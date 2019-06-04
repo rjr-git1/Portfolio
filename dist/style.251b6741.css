@@ -31,6 +31,7 @@ h4 {
 h5 {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+  color: #E31B6D;
 }
 
 /*HEADER*/
@@ -96,10 +97,13 @@ button:hover {
 
 /*MAIN SECTIONS*/
 section {
-  padding: 2rem;
+  padding: 3rem;
   margin-bottom: 2rem;
+  width: 60%;
   display: flex;
   flex-direction: column;
+  position: relative;
+  left: 20%;
 }
 
 .skills-row {
@@ -133,15 +137,12 @@ section {
 
 div.card {
   background-color: #f5f5f5;
+  margin: 2rem;
 }
 
 .card-content {
+  padding: 1rem;
   margin-left: 1rem;
-}
-
-.role-title {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .card-content {
@@ -152,11 +153,73 @@ p {
   margin: 0;
 }
 
+.sub-header {
+  font-size: 1rem;
+}
+
+.sub-header-margin-bot {
+  margin-bottom: 1rem;
+}
+
+#education.card {
+  padding-bottom: 3rem;
+}
+
+#contact {
+  width: 100%;
+  background: #252934;
+  position: initial;
+  margin-bottom: initial;
+}
+
+#contact > h2 {
+  color: #f5f5f5;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+form > input, form > textarea {
+  background: #252934;
+  color: #f5f5f5;
+  background: inherit;
+  width: 40%;
+  padding: 1em;
+  position: relative;
+  left: 35%;
+}
+
+#contact-parr {
+  text-align: center;
+  color: #04C2C9;
+  font-weight: 600;
+}
+
+#submit-btn {
+  color: #f5f5f5;
+  margin-top: 2rem;
+  width: 200px;
+  position: relative;
+  left: 68%;
+}
+
+#submit-btn:hover {
+  background: #04C2C9;
+}
+
 footer {
   height: 15vh;
   background-color: #1b242f;
   color: #fff;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
 }
@@ -169,8 +232,12 @@ footer {
   margin-right: 0.5em;
 }
 
-#education.card {
-  padding-bottom: 3rem;
+#footer-back-button {
+  color: #E31B6D;
+  transform: scale(1, 1);
+  margin-top: 2rem;
+  position: relative;
+  bottom: 35px;
 }
 
 /*Media Queries*/
